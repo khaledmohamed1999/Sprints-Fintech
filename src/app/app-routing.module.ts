@@ -5,11 +5,9 @@ import { CheckoutPageComponent } from './components/page-components/checkout-pag
 import { ContactPageComponent } from './components/page-components/contact-page/contact-page.component';
 import { HomePageComponentComponent } from './components/page-components/home-page-component/home-page-component.component';
 import { ProductDetailComponent } from './components/page-components/product-detail/product-detail.component';
-import { ProductsShopComponent } from './components/page-components/products-shop/products-shop.component';
 
 const routes: Routes = [
   {path:'', component:HomePageComponentComponent},
-  {path:'shop',component:ProductsShopComponent},
   {path:'detail',component:ProductDetailComponent},
   {path:'cart',component:CartPageComponent},
   {path:'checkout',component:CheckoutPageComponent},
