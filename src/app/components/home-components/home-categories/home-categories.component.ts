@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeCategoriesComponent {
   categories:any[] = [
-    {name: 'Send Money', imageUrl: '/assets/img/cat-1.jpg'},
-    {name: 'Recieve Money', imageUrl: '/assets/img/cat-2.jpg'},
-    {name: 'Pay Online', imageUrl: '/assets/img/cat-3.jpg'},
+    {name: 'Send Money', imageUrl: '/assets/img/send.png'},
+    {name: 'Recieve Money', imageUrl: '/assets/img/recieve.png'},
+    {name: 'Pay Online', imageUrl: '/assets/img/pay.png'},
   ];
 }
