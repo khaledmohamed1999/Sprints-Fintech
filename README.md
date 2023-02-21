@@ -16,10 +16,12 @@ recieve money page
 maged:
 home page pictures
 admin panel : users ->user.info & [transactions] -- logout
+about us pictures
 
 hendy:
 footer
-about us pictures & some text
+about us some text
+create virtual debit card
 pay online page
 
 khaled:
