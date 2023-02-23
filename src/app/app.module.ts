@@ -16,6 +16,12 @@ import { CategoryElementComponent } from './components/home-components/cateogry-
 import { ProductElementComponent } from './components/product-element/product-element.component';
 import { VendorsComponent } from './components/home-components/vendors/vendors.component';
 import { TransactionHistoryPageComponent } from './components/page-components/transaction-history-page/transaction-history-page.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { AdminUserComponent } from './components/admin/user/admin-user/admin-user.component';
+import { SiteComponent } from './components/site/site.component';
+import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
+import { TransactionsComponent } from './components/admin/user/transactions/transactions.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { TransactionHistoryPageComponent } from './components/page-components/tr
     CategoryElementComponent,
     ProductElementComponent,
     VendorsComponent,
-    TransactionHistoryPageComponent
+    TransactionHistoryPageComponent,
+    AdminComponent,
+    AdminUserComponent,
+    SiteComponent,
+    SidebarComponent,
+    TransactionsComponent,
+
   ],
   imports: [
     BrowserModule,

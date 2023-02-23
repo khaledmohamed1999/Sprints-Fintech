@@ -1,0 +1,24 @@
+<body>
+<div class="wrapper d-flex align-items-stretch" style="height: 100vh;">
+        <nav id="sidebar">
+          <div class="img bg-wrap text-center py-4" style="background-image: url(/assets/img/Money-Transfer.jpg);;">
+              <div class="user-logo">
+                  <div class="img" style="background-image: url(/assets/img/pay.png); margin-top: 50px;" ></div>
+                  <span class="h1 text-uppercase text-dark bg-light px-2">Fin</span>
+                  <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">tech</span>
+              </div>
+          </div>
+    <ul class="list-unstyled components mb-5">
+      <li >
+        <a routerLink="/admin" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}><span class="fa fa-home mr-3"></span> Home</a>
+      </li>
+      <li>
+        <a routerLink="user" routerLinkActive="active"><span class="fa-solid fa-user mr-3"></span>Users</a>
+      </li>
+      
+    </ul>
+
+    </nav>
+    <router-outlet></router-outlet>
+</div>
+    <!-- Page Content  -->
