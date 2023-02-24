@@ -14,9 +14,7 @@ send money page
 recieve money page
 
 maged:
-home page pictures
-admin panel : users ->user.info & [transactions] -- logout
-about us pictures
+
 
 hendy:
 footer
@@ -26,5 +24,4 @@ pay online page
 edit header active links
 
 khaled:
-wallet page
 
