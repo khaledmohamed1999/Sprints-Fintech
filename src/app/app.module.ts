@@ -10,7 +10,6 @@ import { HomeCategoriesComponent } from './components/home-components/home-categ
 import { HomeFrontComponent } from './components/home-components/home-front/home-front.component';
 import { ProductDetailComponent } from './components/page-components/product-detail/product-detail.component';
 import { ContactPageComponent } from './components/page-components/contact-page/contact-page.component';
-import { CartPageComponent } from './components/page-components/cart-page/cart-page.component';
 import { CheckoutPageComponent } from './components/page-components/checkout-page/checkout-page.component';
 import { CategoryElementComponent } from './components/home-components/cateogry-element/category-element.component';
 import { ProductElementComponent } from './components/product-element/product-element.component';
@@ -20,6 +19,7 @@ import { SendMoneyComponent } from './components/page-components/send-money/send
 import { RequestMoneyComponent } from './components/page-components/request-money/request-money.component';
 import { PayOnlineComponent } from './components/page-components/pay-online/pay-online.component';
 import { PayBillsItemsComponent } from './components/page-components/pay-bills-items/pay-bills-items.component';
+import { WalletPageComponent } from './components/page-components/wallet-page/wallet-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,6 @@ import { PayBillsItemsComponent } from './components/page-components/pay-bills-i
     HomeFrontComponent,
     ProductDetailComponent,
     ContactPageComponent,
-    CartPageComponent,
     CheckoutPageComponent,
     CategoryElementComponent,
     ProductElementComponent,
@@ -41,6 +40,7 @@ import { PayBillsItemsComponent } from './components/page-components/pay-bills-i
     RequestMoneyComponent,
     PayOnlineComponent,
     PayBillsItemsComponent
+    WalletPageComponent
   ],
   imports: [
     BrowserModule,
