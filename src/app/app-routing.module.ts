@@ -20,14 +20,12 @@ const routes: Routes = [
   ]},
   {path:'',component:SiteComponent,children:[
   {path:'', component:HomePageComponentComponent},
-  {path:'detail',component:ProductDetailComponent},
+  {path:'about',component:ProductDetailComponent},
   {path:'wallet',component:WalletPageComponent},
   {path:'checkout',component:CheckoutPageComponent},
-
-   {path:'contact',component:ContactPageComponent},
+  {path:'contact',component:ContactPageComponent},
   {path:'send-money',component:SendMoneyComponent},
   {path:'request-money',component:RequestMoneyComponent},
-  {path:'about',component:PayOnlineComponent},
   {path:'pay-online',component:PayOnlineComponent},]},
 
 

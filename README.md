@@ -14,14 +14,11 @@ send money page
 recieve money page
 
 maged:
+1st photo on home carousel
+2nd photo on about us
 
 
 hendy:
-footer
-about us some text
-create virtual debit card
-pay online page
-edit header active links
 
 khaled:
 
