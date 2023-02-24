@@ -29,6 +29,7 @@
               "src/assets/lib/animate/animate.min.css",
               "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
               "src/assets/css/style.css"
+              
             ],
             "scripts": [
               "src/assets/lib/easing/easing.min.js",
@@ -102,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e49621c5-65af-4f0a-80d9-cc6690058d9c"
   }
 }
