@@ -1,4 +1,4 @@
-<!-- Topbar Start -->
+<!-- Topbar Start 
 <div class="container-fluid">
   <div
     class="row align-content-lg-between bg-light py-2 px-xl-5 d-none d-lg-flex"
@@ -18,27 +18,27 @@
     </div>
   </div>
 </div>
-<!-- Topbar End -->
+ Topbar End -->
 
 <!-- Navbar Start -->
 <div class="container-fluid bg-dark mb-30">
-  <div class="row px-xl-5">
-    <div class="col-lg-9">
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
-        <a href="" class="text-decoration-none d-block d-lg-none">
-          <span class="h1 text-uppercase text-dark bg-light px-2">Fin</span>
-          <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">tech</span>
-        </a>
+  <div class="row px-xl-4">
+    <div class="col-lg-12">
+      <nav class="navbar navbar-expand-lg navbar-dark py-3 py-lg-0 px-0">
         <button type="button"class="navbar-toggler"data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-between"
-          id="navbarCollapse"
-        >
-        <div class="navbar-nav mr-auto py-0 text-center "></div>
-          <div class="navbar-nav mr-auto py-0 text-center ">
-            <a href="" class="nav-item nav-link">Home</a>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="col-lg-4">
+          <a href="" class="text-decoration-none">
+            <span class="h1 text-uppercase text-primary bg-dark px-2">Fin</span>
+            <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1"
+              >tech</span
+            >
+          </a>
+          </div>
+          <div class="navbar-nav mr-auto py-0  ">
+            <a routerLink="" routerLinkActive="active" class="nav-item nav-link">Home</a>
             <a routerLink="/wallet" routerLinkActive="active" class="nav-item nav-link ">Wallet</a>
             <div class="nav-item dropdown">
               <a
@@ -49,16 +49,16 @@
                 <i class="fa fa-angle-down mt-1"></i>
               </a>
               <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                <a href="/send-money" class="dropdown-item">Send Money</a>
-                <a href="/request-money" class="dropdown-item">Request Money</a>
-                <a href="/pay-online" class="dropdown-item">Pay-Online</a>
+                <a routerLink="/send-money" routerLinkActive="active" class="dropdown-item">Send Money</a>
+                <a routerLink="/request-money" routerLinkActive="active" class="dropdown-item">Request Money</a>
+                <a routerLink="/pay-online" routerLinkActive="active" class="dropdown-item">Pay-Online</a>
               </div>
             </div>
-            <a href="contact" class="nav-item nav-link">Contact</a>
-            <a href="detail" class="nav-item nav-link">About us</a>
+            <a routerLink="/contact" routerLinkActive="active" class="nav-item nav-link">Contact</a>
+            <a routerLink="/about" routerLinkActive="active" class="nav-item nav-link">About us</a>
           </div>
         </div>
-          <div class="navbar-nav ml-auto py-0 d-none d-lg-block text-right">
+          <div class="navbar-nav  py-0 d-none d-lg-block">
             <a href="" class="btn px-0 ml-3"
               ><i class="fa-brands fa-facebook text-primary"></i
             ></a>
@@ -75,7 +75,6 @@
               ><i class="fa-brands fa-whatsapp text-primary"></i
             ></a>
           </div>
-        
       </nav>
     </div>
   </div>
