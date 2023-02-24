@@ -15,6 +15,10 @@ import { CategoryElementComponent } from './components/home-components/cateogry-
 import { ProductElementComponent } from './components/product-element/product-element.component';
 import { VendorsComponent } from './components/home-components/vendors/vendors.component';
 import { TransactionHistoryPageComponent } from './components/page-components/transaction-history-page/transaction-history-page.component';
+import { SendMoneyComponent } from './components/page-components/send-money/send-money.component';
+import { RequestMoneyComponent } from './components/page-components/request-money/request-money.component';
+import { PayOnlineComponent } from './components/page-components/pay-online/pay-online.component';
+import { PayBillsItemsComponent } from './components/page-components/pay-bills-items/pay-bills-items.component';
 import { WalletPageComponent } from './components/page-components/wallet-page/wallet-page.component';
 
 @NgModule({
@@ -32,6 +36,10 @@ import { WalletPageComponent } from './components/page-components/wallet-page/wa
     ProductElementComponent,
     VendorsComponent,
     TransactionHistoryPageComponent,
+    SendMoneyComponent,
+    RequestMoneyComponent,
+    PayOnlineComponent,
+    PayBillsItemsComponent
     WalletPageComponent
   ],
   imports: [
