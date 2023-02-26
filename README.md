@@ -18,7 +18,6 @@ maged:
 remove 2nd photo on about us
 transaction success/fail page
 login button header
-refrence pay page 
 
 
 hendy:
@@ -30,6 +29,7 @@ virtual card info page
 khaled:
 send money page
 recieve money page
+refrence pay page 
 
 
 
@@ -40,7 +40,7 @@ users->(type:vendor-user, role) - vendors(user_id, image , href) - transactions(
 /sign-up
 /add- vendor
 /send-money
-
+/
 
 
 id - sender -  reciever
