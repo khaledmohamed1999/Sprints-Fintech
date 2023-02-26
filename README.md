@@ -15,10 +15,35 @@ recieve money page
 
 maged:
 1st photo on home carousel
-2nd photo on about us
+remove 2nd photo on about us
+transaction success/fail page
+login button header
+refrence pay page 
 
 
 hendy:
+bill payment page
+vendors home page
+virtual card info page
+
 
 khaled:
+send money page
+recieve money page
+
+
+
+
+users->(type:vendor-user, role) - vendors(user_id, image , href) - transactions(user-id,bill_amount) - virtual cards(user-id)
+ 
+/login 
+/sign-up
+/add- vendor
+/send-money
+
+
+
+id - sender -  reciever
+
+
 
