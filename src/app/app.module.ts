@@ -24,6 +24,7 @@ import { RequestMoneyComponent } from './components/page-components/request-mone
 import { PayOnlineComponent } from './components/page-components/pay-online/pay-online.component';
 import { PayBillsItemsComponent } from './components/page-components/pay-bills-items/pay-bills-items.component';
 import { WalletPageComponent } from './components/page-components/wallet-page/wallet-page.component';
+import { PayBillsComponent } from './components/page-components/pay-bills/pay-bills.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { WalletPageComponent } from './components/page-components/wallet-page/wa
     PayOnlineComponent,
     PayBillsItemsComponent,
     WalletPageComponent,
+    PayBillsComponent,
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,7 @@ import { SendMoneyComponent } from './components/page-components/send-money/send
 import { PayOnlineComponent } from './components/page-components/pay-online/pay-online.component';
 import { RequestMoneyComponent } from './components/page-components/request-money/request-money.component';
 import { WalletPageComponent } from './components/page-components/wallet-page/wallet-page.component';
+import { PayBillsComponent } from './components/page-components/pay-bills/pay-bills.component';
 
 const routes: Routes = [
   {path:'admin', component:AdminComponent,children:[
@@ -26,7 +27,8 @@ const routes: Routes = [
   {path:'contact',component:ContactPageComponent},
   {path:'send-money',component:SendMoneyComponent},
   {path:'request-money',component:RequestMoneyComponent},
-  {path:'pay-online',component:PayOnlineComponent},]},
+  {path:'pay-online',component:PayOnlineComponent},
+  {path:'pay-bills',component:PayBillsComponent},]},
 
 
 
