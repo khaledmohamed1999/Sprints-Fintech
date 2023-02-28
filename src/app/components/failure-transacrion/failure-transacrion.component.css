@@ -1,0 +1,29 @@
+
+.body {
+    text-align: center;
+    
+  }
+    h1 {
+      color: #ff0000;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+   
+    
+  i {
+    color: #ff0000;
+    font-size: 150px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .card {
+    width: 50%;
+    background: rgb(255, 255, 255);
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #9ABC66;
+    display: inline-block;
+    margin: 0 auto;
+  }

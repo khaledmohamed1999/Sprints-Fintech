@@ -24,7 +24,17 @@ import { RequestMoneyComponent } from './components/page-components/request-mone
 import { PayOnlineComponent } from './components/page-components/pay-online/pay-online.component';
 import { PayBillsItemsComponent } from './components/page-components/pay-bills-items/pay-bills-items.component';
 import { WalletPageComponent } from './components/page-components/wallet-page/wallet-page.component';
+
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SucessTransactionComponent } from './components/sucess-transaction/sucess-transaction.component';
+import { FailureTransacrionComponent } from './components/failure-transacrion/failure-transacrion.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
 import { PayBillsComponent } from './components/page-components/pay-bills/pay-bills.component';
+
 
 
 @NgModule({
@@ -52,11 +62,22 @@ import { PayBillsComponent } from './components/page-components/pay-bills/pay-bi
     PayOnlineComponent,
     PayBillsItemsComponent,
     WalletPageComponent,
+
+    LoginComponent,
+    RegisterComponent,
+    SucessTransactionComponent,
+    FailureTransacrionComponent,
+
     PayBillsComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

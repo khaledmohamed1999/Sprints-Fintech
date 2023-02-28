@@ -1,0 +1,31 @@
+<div class="container">
+
+
+	<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="border border-success rounded  p-5">
+    <p class="h4 mb-4">Login</p>
+		<div class="form-group">
+			<label for="email">Email address</label>
+      <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+      <small class="text-danger" 
+        *ngIf="loginForm.controls['email'].touched && loginForm.controls['email'].errors?.['required']">
+          Please enter email address.!
+      </small>
+
+      <small class="text-danger"
+      *ngIf="loginForm.controls['email'].touched && loginForm.controls['email'].errors?.['email']">
+        Email address not well formed.!
+      </small>
+    </div>
+    
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" formControlName="password" placeholder="Password">
+      <small class="text-danger" 
+        *ngIf="loginForm.controls['password'].touched && loginForm.controls['password'].errors?.['required']">
+          Please enter password.!
+      </small>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Login</button>
+    <button type="submit" class="btn btn-primary ml-5 bg-primary"  ><a routerLink="/register" style="color: aliceblue;">Sign up</a></button>
+  </form>
+</div>
