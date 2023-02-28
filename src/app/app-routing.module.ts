@@ -12,12 +12,10 @@ import { SendMoneyComponent } from './components/page-components/send-money/send
 import { PayOnlineComponent } from './components/page-components/pay-online/pay-online.component';
 import { RequestMoneyComponent } from './components/page-components/request-money/request-money.component';
 import { WalletPageComponent } from './components/page-components/wallet-page/wallet-page.component';
-
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { SucessTransactionComponent } from './components/sucess-transaction/sucess-transaction.component';
 import { FailureTransacrionComponent } from './components/failure-transacrion/failure-transacrion.component';
-
 import { PayBillsComponent } from './components/page-components/pay-bills/pay-bills.component';
 
 const routes: Routes = [
@@ -33,20 +31,13 @@ const routes: Routes = [
   {path:'contact',component:ContactPageComponent},
   {path:'send-money',component:SendMoneyComponent},
   {path:'request-money',component:RequestMoneyComponent},
-
   {path:'sign_in',component:LoginComponent},
   {path:'register',component:RegisterComponent},
   {path:'pay-online',component:PayOnlineComponent},
   {path:'st',component:SucessTransactionComponent},
   {path:'pay-bills',component:PayBillsComponent},
-  {path:'ft',component:FailureTransacrionComponent]}},
-
- 
-  ]},
-
-
-
-
+  {path:'ft',component:FailureTransacrionComponent}],
+}
 ];
 
 @NgModule({

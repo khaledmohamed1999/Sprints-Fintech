@@ -14,33 +14,43 @@ send money page
 recieve money page
 
 maged:
-1st photo on home carousel
-remove 2nd photo on about us
-transaction success/fail page
-login button header
+admin/vendor (front)
+admin/add vendor ->crud
+admin/add user ->crud
 
 
 hendy:
 bill payment page
-vendors home page
 virtual card info page
+/contact ->post
+/pay bill ->post
+/pay bill(history) ->get
+/pay by refrence
+/generate-card->get
 
 
 khaled:
-send money page
-recieve money page
-refrence pay page 
+/send-money -> check
+/send-money ->post
+/request-money ->check
+/request-money ->post
+/wallet -> balance -transactions
 
+nouf:
+/login->post
+/sign-up->post
 
-
-
-users->(type:vendor-user, role) - vendors(user_id, image , href) - transactions(user-id,bill_amount) - virtual cards(user-id)
+users->(id - name - number - email - balance - national_id - type:vendor-user - role)
+ - vendors(user_id, image , href) 
+- transactions(user-id(sender) ,bill_amount- date - reciever)
+ - virtual cards(user-id , id)
  
-/login 
-/sign-up
-/add- vendor
-/send-money
-/
+
+
+
+
+
+
 
 
 id - sender -  reciever
