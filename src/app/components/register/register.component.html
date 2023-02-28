@@ -1,0 +1,59 @@
+<div class="container">
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class=" border border-info rounded p-5">
+
+    <p class="h4 mb-4">Sign up</p>
+  
+    <div class="form-row mb-4">
+        
+        <div class="col">
+           
+                <label for="firstName">First name</label>
+            <input type="text" formControlName="firstName"  class="form-control" placeholder="First name">
+            <small class="text-danger" 
+            *ngIf="registerForm.controls['firstName'].touched && registerForm.controls['firstName'].errors?.['required']">
+              Please enter your first name.!
+          </small>
+        </div>
+      
+        <div class="col">
+            
+                <label for="lastName">Last name</label>
+            <input type="text" formControlName="lastName"  class="form-control" placeholder="Last name">
+            <small class="text-danger" 
+            *ngIf="registerForm.controls['lastName'].touched && registerForm.controls['lastName'].errors?.['required']">
+              Please enter last name.!
+          </small>
+            </div>
+        </div>
+    
+  
+        <label for="email">Email address</label>
+    <input type="email" formControlName="email"  class="form-control mb-4" placeholder="E-mail">
+    <small class="text-danger" 
+        *ngIf="registerForm.controls['email'].touched && registerForm.controls['email'].errors?.['required']">
+          Please enter your email.!
+      </small>
+      <small class="text-danger"
+      *ngIf="registerForm.controls['email'].touched && registerForm.controls['email'].errors?.['email']">
+        Please entre a valid email !
+      </small>
+    
+    
+        <label for="password">Password</label>
+    <input type="password" formControlName="password"  class="form-control mb-4" placeholder="Password">
+    <small class="text-danger" 
+        *ngIf="registerForm.controls['password'].touched && registerForm.controls['password'].errors?.['required']">
+          Please enter password.!
+      </small>
+      <label for="password_confirm">Confirm password</label>
+      <input type="password" formControlName="confirmPassword"  class="form-control mb-4" placeholder="Entre your password again">
+      <small class="text-danger" 
+          *ngIf="registerForm.controls['confirmPassword'].touched && registerForm.controls['confirmPassword'].errors">
+            Please enter your password again correctly.!
+        </small>
+    <button class="btn btn-info  btn-block bg-primary" type="submit" [disabled]="!registerForm.valid">Register</button>
+  
+    
+  
+  </form>
+</div>
